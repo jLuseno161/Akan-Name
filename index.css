@@ -1,6 +1,12 @@
 label {
     margin-bottom: 10px;
     font-weight: 500;
-    
 }
 
+#btn {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+}
