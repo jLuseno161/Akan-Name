@@ -24,6 +24,20 @@ window.onload = function () {
             }
             let index = (date + parseInt(((month + 1) * 26) / 10) + year + parseInt(year / 4) + 6 * parseInt(year / 100) + parseInt(year / 400) - 1) % 7;
 
+            //validate userinput
+            if (YY == "") {
+                alert("Please fill the year");
+            } else if (MM == "") {
+                alert("Please fill the month");
+            } else if (DD == "") {
+                alert("Please fill the day");
+            } else if (MM <= 0 || MM > 31) {
+                alert("Please input correct month");
+            } else if (DD <= 0 || DD > 31) {
+                alert("Please input correct day");
+            } else {
+                alert("We good to go.")
+            }
         }
         dayBorn();
     });
