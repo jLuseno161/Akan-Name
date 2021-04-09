@@ -26,12 +26,14 @@ window.onload = function () {
 
             //validate userinput
             if (YY == "") {
-                alert("Please fill the year");
+                alert("Please input year of birth");
             } else if (MM == "") {
-                alert("Please fill the month");
+                alert("Please input month of birth");
             } else if (DD == "") {
-                alert("Please fill the day");
-            } else if (MM <= 0 || MM > 31) {
+                alert("Please input day of birth");
+            } else if (YY.length < 4 || YY.length > 4) {
+                alert("Please input correct year");
+            } else if (MM <= 0 || MM > 12) {
                 alert("Please input correct month");
             } else if (DD <= 0 || DD > 31) {
                 alert("Please input correct day");
