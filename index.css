@@ -1,7 +1,25 @@
-body{
+body {
     background-color: aliceblue;
+    font-size: 13pt;
+
 }
 
+.container {
+    padding-top: 50px;
+}
+
+form {
+    width: 50%;
+    font-size: 14pt;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form-control{
+    height: 55px;
+}
 label {
     margin-bottom: 10px;
     font-weight: 500;
@@ -12,5 +30,18 @@ label {
     border: none;
     color: white;
     padding: 15px;
+    width: 200px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1500px) {
+    form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    form {
+        width: 100%;
+    }
 }
