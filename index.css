@@ -1,3 +1,7 @@
+body{
+    background-color: aliceblue;
+}
+
 label {
     margin-bottom: 10px;
     font-weight: 500;
