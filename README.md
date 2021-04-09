@@ -4,10 +4,10 @@
 Joy L. Kolia
 
 ## Description
-This is a project to find user's Akan name based on day of week born.
+This is a program that find user's Akan name based on day of week they were born.
 
 ### Prerequisites
-You need to have git installed on your computer. You can install it with the steps:
+You need to have git installed on your computer. You can install it with the steps below:
    -  Open your terminal (Ctrl+Alt+T)
    -  Install git using this command:
         `$ sudo apt install git-all`
