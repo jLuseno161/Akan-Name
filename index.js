@@ -36,7 +36,13 @@ window.onload = function () {
             } else if (DD <= 0 || DD > 31) {
                 alert("Please input correct day");
             } else {
-                alert("We good to go.")
+                if (document.getElementById('male').checked) {
+                    alert("You were born on " + day[index] + "\n" + "Your Akan Name is " + aMale[index]);
+                } else if (document.getElementById('female').checked) {
+                    alert("You were born on " + day[index] + "\n" + "Your Akan Name is " + aFemale[index]);
+                } else {
+                    alert("You have not selected your gender");
+                }
             }
         }
         dayBorn();
