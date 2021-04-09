@@ -11,6 +11,12 @@ window.onload = function () {
             var year = parseInt(YY);
             var month = parseInt(MM);
             var date = parseInt(DD);
+
+            //arrays to store days and the Akan Names
+            const day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            const aMale = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+            const aFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
         }
         dayBorn();
     });
