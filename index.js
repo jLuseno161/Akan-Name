@@ -38,12 +38,13 @@ window.onload = function () {
             } else {
                 if (document.getElementById('male').checked) {
                     alert("You were born on " + day[index] + "\n" + "Your Akan Name is " + aMale[index]);
+                    reset();
                 } else if (document.getElementById('female').checked) {
                     alert("You were born on " + day[index] + "\n" + "Your Akan Name is " + aFemale[index]);
+                    reset();
                 } else {
                     alert("You have not selected your gender");
                 }
-                reset();
             }
         }
         dayBorn();
