@@ -7,6 +7,10 @@ window.onload = function () {
             MM = document.forms["findAkanName"]["inputMonth"].value;
             DD = document.forms["findAkanName"]["inputDay"].value;
 
+            //convert string to inputGendervar year = parseInt(YY);
+            var year = parseInt(YY);
+            var month = parseInt(MM);
+            var date = parseInt(DD);
         }
         dayBorn();
     });
