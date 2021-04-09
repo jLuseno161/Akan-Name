@@ -43,8 +43,13 @@ window.onload = function () {
                 } else {
                     alert("You have not selected your gender");
                 }
+                reset();
             }
         }
         dayBorn();
     });
+
+    function reset() {
+        location.reload();
+    }
 }
