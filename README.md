@@ -4,7 +4,7 @@
 Joy L. Kolia
 
 ## Description
-This is a program that find user's Akan name based on day of week they were born.
+This is a program that takes a users birthday and find their Akan name based on the gender day of the week they were born.
 
 ### Prerequisites
 You need to have git installed on your computer. You can install it with the steps below:
@@ -20,7 +20,17 @@ To acces this project, you can clone it using these steps;
 4. `Enter` to create your local clone.
     * This will clone the repositoty into your local folder.
 
-### Technologies Used
+## Behaviour Driven Development
+| Behavior            | Input                         | Output                        | 
+| ------------------- | ----------------------------- | ----------------------------- |
+| Day <= 0 | 0 | Input correct day|
+| Day > 31 | 32 or more | Input correct day |
+| Month <= 0 |0 | Input correct month|
+| Month > 12 | 13 or more | Input correct month|
+| Gender is male | Male | Akan Male name |
+| Gender is female | Female | Akan Female name |
+
+### Built With
 1. HTML
 2. CSS
 3. Javascript
@@ -28,9 +38,10 @@ To acces this project, you can clone it using these steps;
 5. Git
 
 ### Live Site
-View [live](https://jluseno161.github.io/Akan-Name/)
+View [live](https://jluseno161.github.io/Akan-Name/) demo.
 
 ### Licence
-This project is under the  [MIT](LICENSE) licence:<br>
+Licenced under [![License: MIT](LICENSE)<br>
 
-Copyright (c) 2021 JOY L. KOLIA
+
+MIT ©  [JOY L. KOLIA](https://github.com/jLuseno161)
