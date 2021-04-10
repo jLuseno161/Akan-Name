@@ -13,28 +13,74 @@
 </head>
 
 <body>
+    <h1 id="header">Akan Name Generator</h1>
+
     <div class="container">
-        <h2>Want to know your Akan Name?</h2>
+        <h3>Want to know your Akan Name?</h3>
         <p>Akan names are derived from Ghanian culture. In Ghana, children are given their first name as a
             'day name' which corresponds to the day in the week they were born. </p>
-        <p><em>Fill out your birth day details as requested (then click "<strong>Generate Akan Name</strong>") to generate your Akan
-                Name.</em></p>
+        <div class="card">
+            <table>
+                <tr>
+                    <th>Day Born</th>
+                    <th>Male Names</th>
+                    <th>Female Names</th>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Kwasi</td>
+                    <td>Akosua</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Kwadwo</td>
+                    <td>Adwoa</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Kwabena</td>
+                    <td>Abenaa</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Kwaku</td>
+                    <td>Akua</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Yaw</td>
+                    <td>Yaa</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Kofi</td>
+                    <td>Afua</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Kwame</td>
+                    <td>Ama</td>
+                </tr>
+            </table>
+
+        </div>
+        <p><strong id="fill">Fill out your birth day details as requested to generate your Akan Name.</strong></p>
         <form action="" name="findAkanName">
             <div class="row">
                 <label for="inputYear">Year of Birth</label>
-                <div class="inputF">
+                <div class="col-sm-12">
                     <input type="text" class="form-control" id="inputYear" name="inputYear" placeholder="i.e 1996">
                 </div>
             </div>
             <div class="row">
                 <label for="inp￼ Male ￼ FemaleutMonth">Month of Birth</label>
-                <div class="inputF">
+                <div class="col-md-12">
                     <input type="text" class="form-control" id="inputMonth" name="inputMonth" placeholder="i.e 12">
                 </div>
             </div>
             <div class="row">
                 <label for="inputDay">Day of Month</label>
-                <div class="inputF">
+                <div class="col-md-12">
                     <input type="text" class="form-control" id="inputDay" name="inputDay" placeholder="i.e 27">
                 </div>
             </div>
@@ -50,7 +96,7 @@
             </div>
             <div class="row">
                 <div>
-                    <input type="button" value="Submit" id="btn">
+                    <input type="button" value="Generate Akan Name" id="btn">
                 </div>
             </div>
         </form>

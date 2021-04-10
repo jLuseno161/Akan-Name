@@ -39,10 +39,10 @@ window.onload = function () {
                 alert("Please input correct day");
             } else {
                 if (document.getElementById('male').checked) {
-                    alert("You were born on " + day[index] + "\n" + "Your Akan Name is " + aMale[index]);
+                    alert("You were born on " + day[index] + " and your Akan Name is " + aMale[index]);
                     reset();
                 } else if (document.getElementById('female').checked) {
-                    alert("You were born on " + day[index] + "\n" + "Your Akan Name is " + aFemale[index]);
+                    alert("You were born on " + day[index] + " and your Akan Name is " + aFemale[index]);
                     reset();
                 } else {
                     alert("You have not selected your gender");

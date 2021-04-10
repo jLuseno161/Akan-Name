@@ -41,6 +41,6 @@ To acces this project, you can clone it using these steps;
 View [live](https://jluseno161.github.io/Akan-Name/) demo.
 
 ### License
-* Licenced under [![License: MIT]](LICENSE).
+* Licenced under [MIT](LICENSE).
 
 MIT ©  [JOY L. KOLIA](https://github.com/jLuseno161)
