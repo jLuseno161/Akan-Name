@@ -26,26 +26,56 @@ window.onload = function () {
 
             //validate userinput
             if (YY == "") {
-                alert("Please input year of birth");
+                swal({
+                    title: "Please input year of birth",
+                    icon: "warning",
+                });
             } else if (MM == "") {
-                alert("Please input month of birth");
+                swal({
+                    title: "Please input month of birth",
+                    icon: "warning",
+                });
             } else if (DD == "") {
-                alert("Please input day of birth");
+                swal({
+                    title: "Please input day of birth",
+                    icon: "warning",
+                });
             } else if (YY.length < 4 || YY.length > 4) {
-                alert("Please input correct year");
+                swal({
+                    title: "Please input correct year",
+                    icon: "warning",
+                });
             } else if (MM <= 0 || MM > 12) {
-                alert("Please input correct month");
+                swal({
+                    title: "Please input correct month",
+                    icon: "warning",
+                });
             } else if (DD <= 0 || DD > 31) {
-                alert("Please input correct day");
+                swal({
+                    title: "Please input correct day",
+                    icon: "warning",
+                });
             } else {
                 if (document.getElementById('male').checked) {
-                    alert("You were born on " + day[index] + " and your Akan Name is " + aMale[index]);
-                    reset();
+                    swal({
+                        title: "You were born on " + day[index] + " and your Akan Name is " + aMale[index],
+                        icon: "success",
+                    }).then((value) => {
+                        reset();
+                    });
+                    swal.reset();
                 } else if (document.getElementById('female').checked) {
-                    alert("You were born on " + day[index] + " and your Akan Name is " + aFemale[index]);
-                    reset();
+                    swal({
+                        title: "You were born on " + day[index] + " and your Akan Name is " + aFemale[index],
+                        icon: "success",
+                    }).then((value) => {
+                        reset();
+                    });
                 } else {
-                    alert("You have not selected your gender");
+                    swal({
+                        title: "You have not selected your gender",
+                        icon: "warning",
+                    });
                 }
             }
         }
