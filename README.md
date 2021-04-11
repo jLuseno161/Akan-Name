@@ -1,4 +1,5 @@
-# # Akan Name
+## Akan Name
+# ![Akan-Name](https://jluseno161.github.io/Akan-Name/images/app.png)
 
 ## Author
 Joy L. Kolia
